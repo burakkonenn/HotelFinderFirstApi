@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotelAp</name>
+    </assembly>
+    <members>
+        <member name="M:HotelAp.Controllers.HotelController.Get">
+            <summary>
+            GetAllHotels
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HotelAp.Controllers.HotelController.Get(System.Int32)">
+            <summary>
+            Get with Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelAp.Controllers.HotelController.Post(HotelFinder.entities.Hotel)">
+            <summary>
+            Post
+            </summary>
+            <param name="hotel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelAp.Controllers.HotelController.Put(HotelFinder.entities.Hotel)">
+            <summary>
+            For Update
+            </summary>
+            <param name="hotel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelAp.Controllers.HotelController.Delete(System.Int32)">
+            <summary>
+            For Delete
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
